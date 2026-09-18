@@ -19,7 +19,7 @@ export default function DeveloperApi() {
  </div>
  <h3 className="font-semibold text-textMain mb-2">Documentation</h3>
  <p className="text-sm text-textMuted mb-4">Complete reference for all available endpoints and models.</p>
- <a href="https://api.highshift.cloud/docs" target="_blank" rel="noreferrer" className="text-raven-400 text-sm font-medium hover:underline">View Docs &rarr;</a>
+ <a href="https://api.socialraven.online/docs" target="_blank" rel="noreferrer" className="text-raven-400 text-sm font-medium hover:underline">View Docs &rarr;</a>
  </div>
 
  <div className="p-6 bg-bgSurface rounded-xl border border-borderColor shadow-sm">

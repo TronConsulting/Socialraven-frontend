@@ -3,7 +3,7 @@ import axios from 'axios';
 // If VITE_API_URL is set, use it. Otherwise:
 // - Default to the production API domain.
 // - If running in production (served by backend), default to relative path '' (same origin)
-const API_URL = import.meta.env.VITE_API_URL || 'https://api.highshift.cloud';
+const API_URL = import.meta.env.VITE_API_URL || 'https://api.socialraven.online';
 
 export const api = axios.create({
     baseURL: API_URL,

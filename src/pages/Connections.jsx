@@ -84,16 +84,16 @@ export default function Connections() {
  // Hotfix: Force override the dead backend Vercel URL and the legacy /auth path in the OAuth payload
  let finalAuthUrl = data.authUrl;
  if (finalAuthUrl.includes('highshift-cloud-backend.vercel.app')) {
-     finalAuthUrl = finalAuthUrl.replace(/highshift-cloud-backend\.vercel\.app%2Fauth/g, 'api.highshift.cloud%2Fauth%2Fconnect');
-     finalAuthUrl = finalAuthUrl.replace(/highshift-cloud-backend\.vercel\.app\/auth/g, 'api.highshift.cloud/auth/connect');
+     finalAuthUrl = finalAuthUrl.replace(/highshift-cloud-backend\.vercel\.app%2Fauth/g, 'api.socialraven.online%2Fauth%2Fconnect');
+     finalAuthUrl = finalAuthUrl.replace(/highshift-cloud-backend\.vercel\.app\/auth/g, 'api.socialraven.online/auth/connect');
  }
  
  // Hotfix: The Hostinger backend incorrectly strips /auth from the callback URI. Fix it before we send it to OAuth providers.
- if (finalAuthUrl.includes('api.highshift.cloud%2Fconnect')) {
-     finalAuthUrl = finalAuthUrl.replace(/api\.highshift\.cloud%2Fconnect/g, 'api.highshift.cloud%2Fauth%2Fconnect');
+ if (finalAuthUrl.includes('api.socialraven.online%2Fconnect')) {
+     finalAuthUrl = finalAuthUrl.replace(/api\.highshift\.cloud%2Fconnect/g, 'api.socialraven.online%2Fauth%2Fconnect');
  }
- if (finalAuthUrl.includes('api.highshift.cloud/connect')) {
-     finalAuthUrl = finalAuthUrl.replace(/api\.highshift\.cloud\/connect/g, 'api.highshift.cloud/auth/connect');
+ if (finalAuthUrl.includes('api.socialraven.online/connect')) {
+     finalAuthUrl = finalAuthUrl.replace(/api\.highshift\.cloud\/connect/g, 'api.socialraven.online/auth/connect');
  }
  window.location.href = finalAuthUrl;
  }
