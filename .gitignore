@@ -1,3 +1,6 @@
 node_modules
 dist
 .env
+
+# OS cruft
+.DS_Store

@@ -1,5 +1,6 @@
 import ApiKeys from './ApiKeys';
 import { Book, Code, Terminal } from 'lucide-react';
+import { API_URL } from '../services/api';
 
 export default function DeveloperApi() {
     return (
@@ -19,7 +20,7 @@ export default function DeveloperApi() {
                     </div>
                     <h3 className="font-semibold text-slate-900 dark:text-white mb-2">Documentation</h3>
                     <p className="text-sm text-slate-500 mb-4">Complete reference for all available endpoints and models.</p>
-                    <a href="http://localhost:3000/docs" target="_blank" rel="noreferrer" className="text-indigo-600 text-sm font-medium hover:underline">View Docs &rarr;</a>
+                    <a href={`${API_URL}/docs`} target="_blank" rel="noreferrer" className="text-indigo-600 text-sm font-medium hover:underline">View Docs &rarr;</a>
                 </div>
 
                 <div className="p-6 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
