@@ -1,10 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { Mail, ArrowRight, Loader2 } from 'lucide-react';
-import axios from 'axios';
-
-// Get API URL from env or default
-const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.DEV ? 'http://localhost:3000' : '');
+import { api, API_URL } from '../services/api';
 
 export default function Login() {
     const navigate = useNavigate();
@@ -38,7 +35,7 @@ export default function Login() {
 
         try {
             const endpoint = isLogin ? '/auth/login' : '/auth/register';
-            const res = await axios.post(`${API_URL}${endpoint}`, formData);
+            const res = await api.post(endpoint, formData);
 
             const { access_token, api_key } = res.data;
 
@@ -56,7 +53,7 @@ export default function Login() {
             navigate(redirectPath);
         } catch (err) {
             console.error("Auth Error:", err);
-            setError(err.response?.data?.detail || "Authentication successfuly failed. Please try again.");
+            setError(err.response?.data?.detail || "Authentication failed. Please try again.");
         } finally {
             setIsLoading(false);
         }
