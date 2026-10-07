@@ -1,16 +1,15 @@
 import axios from 'axios';
 
 // Single source of truth for the backend base URL.
-// Dev falls back to localhost:3000. In a production build VITE_API_URL must be
-// baked in at build time, otherwise every request silently targets the frontend
-// origin and fails as an opaque CORS/404 error.
-export const API_URL =
-    import.meta.env.VITE_API_URL || (import.meta.env.DEV ? 'http://localhost:3000' : '');
+// VITE_API_URL must be set in all environments (dev and production).
+// No dev fallback to localhost - this prevents CORS issues and silent failures.
+export const API_URL = import.meta.env.VITE_API_URL;
 
 if (!API_URL) {
     console.error(
-        'VITE_API_URL is not set. API requests will go to the frontend origin and fail.'
+        'VITE_API_URL is not set. Please set VITE_API_URL in your environment variables. API requests will fail.'
     );
+    // In dev, we could throw, but for now just log and let requests fail visibly
 }
 
 export const api = axios.create({
