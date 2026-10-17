@@ -1,50 +1,51 @@
 import ApiKeys from './ApiKeys';
 import { Book, Code, Terminal } from 'lucide-react';
+import { API_URL } from '../services/api';
 
 export default function DeveloperApi() {
- return (
- <div className="h-full flex flex-col gap-8">
- <div>
- <h1 className="text-2xl font-bold text-textMain text-textMain mb-2">Developer API</h1>
- <p className="text-textMuted text-textMuted">
- Integrate Social Raven features directly into your application using our REST API.
- </p>
- </div>
+  return (
+    <div className="h-full flex flex-col gap-8">
+      <div>
+        <h1 className="text-2xl font-bold text-textMain mb-2">Developer API</h1>
+        <p className="text-textMuted">
+          Integrate Social Raven features directly into your application using our REST API.
+        </p>
+      </div>
 
- {/* Documentation Section */}
- <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
- <div className="p-6 bg-bgSurface rounded-xl border border-borderColor shadow-sm">
- <div className="w-10 h-10 bg-raven-500/10 bg-raven-900/20 text-raven-400 dark:text-raven-400 rounded-lg flex items-center justify-center mb-4">
- <Book className="w-5 h-5" />
- </div>
- <h3 className="font-semibold text-textMain mb-2">Documentation</h3>
- <p className="text-sm text-textMuted mb-4">Complete reference for all available endpoints and models.</p>
- <a href="https://api.socialraven.online/docs" target="_blank" rel="noreferrer" className="text-raven-400 text-sm font-medium hover:underline">View Docs &rarr;</a>
- </div>
+      {/* Documentation Section */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="p-6 bg-bgSurface rounded-xl border border-borderColor shadow-sm">
+          <div className="w-10 h-10 bg-raven-500/10 text-raven-400 rounded-lg flex items-center justify-center mb-4">
+            <Book className="w-5 h-5" />
+          </div>
+          <h3 className="font-semibold text-textMain mb-2">Documentation</h3>
+          <p className="text-sm text-textMuted mb-4">Complete reference for all available endpoints and models.</p>
+          <a href={`${API_URL || 'https://api.socialraven.online'}/docs`} target="_blank" rel="noreferrer" className="text-raven-400 text-sm font-medium hover:underline">View Docs &rarr;</a>
+        </div>
 
- <div className="p-6 bg-bgSurface rounded-xl border border-borderColor shadow-sm">
- <div className="w-10 h-10 bg-emerald-50 dark:bg-emerald-900/20 text-emerald-600 dark:text-emerald-400 rounded-lg flex items-center justify-center mb-4">
- <Code className="w-5 h-5" />
- </div>
- <h3 className="font-semibold text-textMain mb-2">SDKs & Libraries</h3>
- <p className="text-sm text-textMuted mb-4">Official client libraries for Python, Node.js, and Go.</p>
- <button className="text-raven-400 text-sm font-medium hover:underline">Download SDKs &rarr;</button>
- </div>
+        <div className="p-6 bg-bgSurface rounded-xl border border-borderColor shadow-sm">
+          <div className="w-10 h-10 bg-emerald-50 dark:bg-emerald-900/20 text-emerald-600 dark:text-emerald-400 rounded-lg flex items-center justify-center mb-4">
+            <Code className="w-5 h-5" />
+          </div>
+          <h3 className="font-semibold text-textMain mb-2">SDKs & Libraries</h3>
+          <p className="text-sm text-textMuted mb-4">Official client libraries for Python, Node.js, and Go.</p>
+          <button className="text-raven-400 text-sm font-medium hover:underline">Download SDKs &rarr;</button>
+        </div>
 
- <div className="p-6 bg-bgSurface rounded-xl border border-borderColor shadow-sm">
- <div className="w-10 h-10 bg-amber-50 dark:bg-amber-900/20 text-amber-600 dark:text-amber-400 rounded-lg flex items-center justify-center mb-4">
- <Terminal className="w-5 h-5" />
- </div>
- <h3 className="font-semibold text-textMain mb-2">Guides</h3>
- <p className="text-sm text-textMuted mb-4">Step-by-step tutorials to get up and running quickly.</p>
- <button className="text-raven-400 text-sm font-medium hover:underline">Read Guides &rarr;</button>
- </div>
- </div>
+        <div className="p-6 bg-bgSurface rounded-xl border border-borderColor shadow-sm">
+          <div className="w-10 h-10 bg-amber-50 dark:bg-amber-900/20 text-amber-600 dark:text-amber-400 rounded-lg flex items-center justify-center mb-4">
+            <Terminal className="w-5 h-5" />
+          </div>
+          <h3 className="font-semibold text-textMain mb-2">Guides</h3>
+          <p className="text-sm text-textMuted mb-4">Step-by-step tutorials to get up and running quickly.</p>
+          <button className="text-raven-400 text-sm font-medium hover:underline">Read Guides &rarr;</button>
+        </div>
+      </div>
 
- {/* API Keys Management */}
- <div className="flex-1 min-h-0">
- <ApiKeys />
- </div>
- </div>
- );
+      {/* API Keys Management */}
+      <div className="flex-1 min-h-0">
+        <ApiKeys />
+      </div>
+    </div>
+  );
 }
