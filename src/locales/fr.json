@@ -246,7 +246,28 @@
     "aiGhostwriterDesc": "Générez un contenu à fort taux de conversion spécifiquement adapté à la voix de votre marque.",
     "readyScale": "Prêt à évoluer ?",
     "joinThousands": "Rejoignez des milliers de marques orchestrant leur présence sociale avec Social Raven.",
-    "getStarted": "Commencer Maintenant"
+    "getStarted": "Commencer Maintenant",
+    "autonomousTitle": "Intelligence Autonome",
+    "autonomousDesc": "Conçu pour une distribution totale et une autorité de marque absolue.",
+    "featureCreator": "Gestion des Créateurs",
+    "featureCreatorDesc": "Découvrez, évaluez et gérez les partenariats influenceurs dans un CRM fluide.",
+    "featureEmployee": "Amplification par les Employés",
+    "featureEmployeeDesc": "Transformez vos équipes en moteur de distribution grâce au partage ciblé.",
+    "featureCompetitor": "Veille Concurrentielle",
+    "featureCompetitorDesc": "Surveillez la part de voix et le sentiment face à vos rivaux de marché.",
+    "featureTeam": "Workflows d’Équipe",
+    "featureTeamDesc": "Rôles spécialisés, circuits d’approbation et journaux d’audit sécurisés.",
+    "featureEnterprise": "Qualité Entreprise",
+    "featureEnterpriseDesc": "Infrastructure certifiée SOC2 avec nœuds IP dédiés pour les grands volumes.",
+    "featureGhostwriter": "Rédacteur IA Prête-plume",
+    "featureGhostwriterDesc": "Générez des contenus à fort taux de conversion calqués sur la voix de votre marque.",
+    "unifiedInboxTitle": "Boîte de Réception Unifiée",
+    "unifiedInboxDesc": "Rassemblez chaque message direct et commentaire dans une boîte prioritaire.",
+    "predictiveTitle": "Analytique Prédictive",
+    "predictiveDesc": "Notre IA analyse l’historique pour vous indiquer quoi et quand publier.",
+    "readyToScale": "Prêt à passer à l’échelle ?",
+    "readyToScaleDesc": "Rejoignez des milliers de marques orchestrant leur présence avec Social Raven.",
+    "getStartedNow": "Commencer Maintenant"
   },
   "pricing": {
     "title": "Tarification Simple et Transparente",
@@ -331,7 +352,12 @@
     "proTip": "Astuce de Pro",
     "proTipDesc1": "Vous pouvez utiliser notre API ",
     "proTipDesc2": " pour automatiser la création de profils et de publications.",
-    "viewApiDoc": "Voir la Documentation de l'API"
+    "viewApiDoc": "Voir la Documentation de l'API",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer ce profil ?",
+    "disconnectConfirm": "Êtes-vous sûr de vouloir déconnecter ce compte ?",
+    "failedToCreate": "Échec de la création du profil",
+    "failedToDelete": "Échec de la suppression du profil",
+    "failedToDisconnect": "Échec de la déconnexion du compte"
   },
   "ai_studio": {
     "initialMessage": "Je suis votre Assistant Créatif Social Raven AI. Je peux générer des publications à fort impact ou créer des visuels. Demandez-moi simplement de 'écrire un post sur...' ou 'générer une image de...'.",

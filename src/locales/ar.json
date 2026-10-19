@@ -64,7 +64,12 @@
     "proTip": "نصيحة احترافية",
     "proTipDesc1": "يمكنك استخدام ",
     "proTipDesc2": " API الخاصة بنا لأتمتة إنشاء الملفات الشخصية والنشر.",
-    "viewApiDoc": "عرض وثائق API"
+    "viewApiDoc": "عرض وثائق API",
+    "deleteConfirm": "هل أنت متأكد من رغبتك في حذف هذا الملف التعريفي؟",
+    "disconnectConfirm": "هل أنت متأكد من رغبتك في فصل هذا الحساب؟",
+    "failedToCreate": "فشل إنشاء الملف التعريفي",
+    "failedToDelete": "فشل حذف الملف التعريفي",
+    "failedToDisconnect": "فشل فصل الحساب"
   },
   "dashboard": {
     "title": "نظرة عامة: التفاعل والنمو",
@@ -269,7 +274,28 @@
     "aiGhostwriterDesc": "إنشاء نسخة عالية التحويل مضبوطة خصيصًا لصوت علامتك التجارية.",
     "readyScale": "هل أنت مستعد للتوسع؟",
     "joinThousands": "انضم إلى آلاف العلامات التجارية التي تنظم وجودها الاجتماعي مع Social Raven.",
-    "getStarted": "ابدأ الآن"
+    "getStarted": "ابدأ الآن",
+    "autonomousTitle": "الذكاء المستقل",
+    "autonomousDesc": "مصمم للتوزيع المطلق وسلطة العلامة التجارية.",
+    "featureCreator": "إدارة المبدعين",
+    "featureCreatorDesc": "اكتشف وفحص وأدر شراكات المؤثرين في نظام إدارة علاقات عملاء سلس.",
+    "featureEmployee": "تضخيم الموظفين",
+    "featureEmployeeDesc": "حوّل قواك العاملة إلى محرك توزيع مع مشاركة منسقة وموجهة.",
+    "featureCompetitor": "مراقبة المنافسين",
+    "featureCompetitorDesc": "راقب حصة الصوت والانطباعات مقابل منافسيك في السوق بدقة.",
+    "featureTeam": "سير عمل الفريق",
+    "featureTeamDesc": "أدوار متخصصة وسلاسل موافقة وسجلات تدقيق تحافظ على امتثال فريقك.",
+    "featureEnterprise": "مستوى المؤسسات الكبرى",
+    "featureEnterpriseDesc": "بنية تحتية متوافقة مع SOC2 مع عقد IP مخصصة للنمو الهائل.",
+    "featureGhostwriter": "الكاتب الذكي AI",
+    "featureGhostwriterDesc": "أنشئ نصوصاً تسويقية عالية التحويل مضبوطة وفقاً لصوت علامتك التجارية.",
+    "unifiedInboxTitle": "صندوق بريد موحد",
+    "unifiedInboxDesc": "وحّد كل الرسائل المباشرة والتعليقات في صندوق بريد ذي أولوية واحدة.",
+    "predictiveTitle": "التحليلات التنبؤية",
+    "predictiveDesc": "يحلل الذكاء الاصطناعي البيانات التاريخية لتحديد ما تنشره وتوقيته لأقصى وصول.",
+    "readyToScale": "جاهز للتوسع والنمو؟",
+    "readyToScaleDesc": "انضم إلى آلاف العلامات التجارية التي تنظم حضورها الاجتماعي مع Social Raven.",
+    "getStartedNow": "ابدأ الآن مجاناً"
   },
   "pricing": {
     "title": "تسعير بسيط وشفاف",

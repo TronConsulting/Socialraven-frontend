@@ -64,7 +64,12 @@
     "proTip": "Pro Tip",
     "proTipDesc1": "You can use our ",
     "proTipDesc2": " API to automate profile creation and posting.",
-    "viewApiDoc": "View API Documentation"
+    "viewApiDoc": "View API Documentation",
+    "deleteConfirm": "Are you sure you want to delete this profile?",
+    "disconnectConfirm": "Are you sure you want to disconnect this account?",
+    "failedToCreate": "Failed to create profile",
+    "failedToDelete": "Failed to delete profile",
+    "failedToDisconnect": "Failed to disconnect account"
   },
   "dashboard": {
     "title": "Overview: Engagement & Growth",
@@ -269,7 +274,28 @@
     "aiGhostwriterDesc": "Generate high-converting copy specifically tuned to your brand voice.",
     "readyScale": "Ready to scale?",
     "joinThousands": "Join thousands of brands orchestrating their social presence with Social Raven.",
-    "getStarted": "Get Started Now"
+    "getStarted": "Get Started Now",
+    "autonomousTitle": "Autonomous Intelligence",
+    "autonomousDesc": "Engineered for absolute distribution and brand authority.",
+    "featureCreator": "Creator Management",
+    "featureCreatorDesc": "Discover, vet, and manage influencer partnerships in one seamless CRM.",
+    "featureEmployee": "Employee Amplification",
+    "featureEmployeeDesc": "Turn your workforce into a distribution engine with curated sharing.",
+    "featureCompetitor": "Competitor Listening",
+    "featureCompetitorDesc": "Monitor share of voice and sentiment against your market rivals.",
+    "featureTeam": "Team Workflows",
+    "featureTeamDesc": "Specialized roles, approval chains, and audit logs keep your team compliant.",
+    "featureEnterprise": "Enterprise Grade",
+    "featureEnterpriseDesc": "SOC2 compliant infrastructure with dedicated IP nodes for massive scale.",
+    "featureGhostwriter": "AI Ghostwriter",
+    "featureGhostwriterDesc": "Generate high-converting copy specifically tuned to your brand voice.",
+    "unifiedInboxTitle": "Unified Inbox",
+    "unifiedInboxDesc": "Consolidate every DM and comment into a single priority inbox.",
+    "predictiveTitle": "Predictive Analytics",
+    "predictiveDesc": "Our AI analyzes historical data to tell you exactly what to post and when for maximum reach. Go beyond vanity metrics.",
+    "readyToScale": "Ready to scale?",
+    "readyToScaleDesc": "Join thousands of brands orchestrating their social presence with Social Raven.",
+    "getStartedNow": "Get Started Now"
   },
   "pricing": {
     "title": "Simple, Transparent Pricing",

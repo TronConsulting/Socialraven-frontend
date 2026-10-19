@@ -246,7 +246,28 @@
     "aiGhostwriterDesc": "Erstellen Sie konversionsstarke Texte, die speziell auf Ihre Markenstimme abgestimmt sind.",
     "readyScale": "Bereit zum Skalieren?",
     "joinThousands": "Schließen Sie sich Tausenden von Marken an, die ihre soziale Präsenz mit Social Raven orchestrieren.",
-    "getStarted": "Jetzt Loslegen"
+    "getStarted": "Jetzt Loslegen",
+    "autonomousTitle": "Autonome Intelligenz",
+    "autonomousDesc": "Entwickelt für maximale Reichweite und unangefochtene Markenautorität.",
+    "featureCreator": "Creator-Management",
+    "featureCreatorDesc": "Finden, prüfen und verwalten Sie Influencer-Partnerschaften in einem nahtlosen CRM.",
+    "featureEmployee": "Mitarbeiter-Multiplikation",
+    "featureEmployeeDesc": "Machen Sie Ihre Mitarbeiter zu einem kraftvollen Distributionskanal.",
+    "featureCompetitor": "Wettbewerbsanalyse",
+    "featureCompetitorDesc": "Behalten Sie Marktanteile und Sentiment gegenüber Wettbewerbern im Blick.",
+    "featureTeam": "Team-Workflows",
+    "featureTeamDesc": "Rollen, Freigabeketten und Prüfprotokolle garantieren höchste Compliance.",
+    "featureEnterprise": "Enterprise-Niveau",
+    "featureEnterpriseDesc": "SOC2-konforme Infrastruktur mit dedizierten IP-Knoten für maximale Skalierung.",
+    "featureGhostwriter": "KI-Ghostwriter",
+    "featureGhostwriterDesc": "Erstellen Sie konvertierungsstarke Texte, exakt abgestimmt auf Ihre Markenstimme.",
+    "unifiedInboxTitle": "Zentraler Posteingang",
+    "unifiedInboxDesc": "Bündeln Sie jede Direktnachricht und jeden Kommentar an einem Ort.",
+    "predictiveTitle": "Prädiktive Analysen",
+    "predictiveDesc": "Unsere KI analysiert Daten, um den perfekten Zeitpunkt für maximale Reichweite zu ermitteln.",
+    "readyToScale": "Bereit zum Skalieren?",
+    "readyToScaleDesc": "Schließen Sie sich Tausenden von Marken an, die ihre Social-Präsenz mit Social Raven steuern.",
+    "getStartedNow": "Jetzt kostenlos starten"
   },
   "pricing": {
     "title": "Einfache, transparente Preisgestaltung",
@@ -331,7 +352,12 @@
     "proTip": "Profi-Tipp",
     "proTipDesc1": "Sie können unsere ",
     "proTipDesc2": " API nutzen, um die Profilerstellung und das Posten zu automatisieren.",
-    "viewApiDoc": "API-Dokumentation Ansehen"
+    "viewApiDoc": "API-Dokumentation Ansehen",
+    "deleteConfirm": "Möchten Sie dieses Profil wirklich löschen?",
+    "disconnectConfirm": "Möchten Sie dieses Konto wirklich trennen?",
+    "failedToCreate": "Profil konnte nicht erstellt werden",
+    "failedToDelete": "Profil konnte nicht gelöscht werden",
+    "failedToDisconnect": "Konto konnte nicht getrennt werden"
   },
   "ai_studio": {
     "initialMessage": "Ich bin Ihr Social Raven AI Creative Assistant. Ich kann wirkungsvolle Beiträge oder visuelle Inhalte erstellen. Bitten Sie mich einfach, 'einen Beitrag zu schreiben über...' oder 'ein Bild zu generieren von...'.",

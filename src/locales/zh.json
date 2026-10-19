@@ -246,7 +246,28 @@
     "aiGhostwriterDesc": "生成专门针对您的品牌声音进行调整的高转化副本。",
     "readyScale": "准备好扩展了吗？",
     "joinThousands": "与成千上万使用Social Raven协调其社交形象的品牌一起。",
-    "getStarted": "立即开始"
+    "getStarted": "立即开始",
+    "autonomousTitle": "自主智能引擎",
+    "autonomousDesc": "为全面内容分发与品牌权威影响力而生。",
+    "featureCreator": "创作者管理",
+    "featureCreatorDesc": "在一体化CRM中发掘、审核与高效管理红人合作。",
+    "featureEmployee": "员工裂变传播",
+    "featureEmployeeDesc": "通过精选内容分发，将全体团队转化为强大的社交传播引擎。",
+    "featureCompetitor": "竞品社媒监听",
+    "featureCompetitorDesc": "实时监测市场竞争对手的声量份额与用户情绪倾向。",
+    "featureTeam": "团队协作流",
+    "featureTeamDesc": "专业角色分工、多层级审批链与审计日志，确保品牌合规。",
+    "featureEnterprise": "企业级架构",
+    "featureEnterpriseDesc": "符合SOC2规范的云基础设施与独享IP节点，支撑超大规模分发。",
+    "featureGhostwriter": "AI智能代写",
+    "featureGhostwriterDesc": "智能生成高度契合您品牌调性与高转化率的社交文案。",
+    "unifiedInboxTitle": "全渠道统一收件箱",
+    "unifiedInboxDesc": "将所有社交平台的私信与评论集中于统一优先级收件箱。",
+    "predictiveTitle": "前瞻预测分析",
+    "predictiveDesc": "AI深度分析历史数据，精准建议最佳发布时间与内容以获得最大触达。",
+    "readyToScale": "准备好开启跨越式增长了吗？",
+    "readyToScaleDesc": "与数千家领先品牌一同使用 Social Raven 精准运筹社交影响力。",
+    "getStartedNow": "立即免费体验"
   },
   "pricing": {
     "title": "简单透明的定价",
@@ -331,7 +352,12 @@
     "proTip": "专业提示",
     "proTipDesc1": "您可以使用我们的 ",
     "proTipDesc2": " API 自动创建配置文件和发布内容。",
-    "viewApiDoc": "查看 API 文档"
+    "viewApiDoc": "查看 API 文档",
+    "deleteConfirm": "您确定要删除此工作区档案吗？",
+    "disconnectConfirm": "您确定要断开此社交账号的连接吗？",
+    "failedToCreate": "创建档案失败",
+    "failedToDelete": "删除档案失败",
+    "failedToDisconnect": "断开账号失败"
   },
   "ai_studio": {
     "initialMessage": "我是您的 Social Raven AI 创意助手。我可以生成高影响力的帖子或创建视觉内容。只需让我“写一篇关于……的帖子”或“生成一张……的图片”。",

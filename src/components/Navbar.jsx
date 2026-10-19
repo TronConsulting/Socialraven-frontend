@@ -1,3 +1,4 @@
+import LanguageSwitcher from './common/LanguageSwitcher';
 import { Link, useLocation } from 'react-router-dom';
 import {
  LayoutDashboard, BarChart3, Calendar, Palette, Sparkles, LogOut, Menu, X, Image as ImageIcon, History,
@@ -126,6 +127,7 @@ export default function Navbar() {
 
  {/* Right Side Actions */}
  <div className="hidden md:flex items-center gap-4">
+ <LanguageSwitcher />
  {apiKey ? (
  <div className="flex items-center gap-3">
  <Link to="/api-keys" className="p-2 text-textMuted hover:text-textMain hover:bg-bgSurfaceHighlight rounded-lg transition-colors" title="API Management">
@@ -152,13 +154,15 @@ export default function Navbar() {
  )}
  </div>
 
- {/* Mobile Menu Button */}
- <div className="md:hidden">
+ {/* Mobile Actions & Menu Button */}
+ <div className="md:hidden flex items-center gap-2">
+ <LanguageSwitcher />
  <button
  onClick={() => setIsMenuOpen(!isMenuOpen)}
- className="p-2 text-textMuted hover:text-textMain transition-colors"
+ className="p-2 text-textMuted hover:text-textMain transition-colors rounded-xl border border-borderColor bg-bgSurfaceHighlight"
+ aria-label="Toggle Navigation Menu"
  >
- {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+ {isMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
  </button>
  </div>
  </div>
